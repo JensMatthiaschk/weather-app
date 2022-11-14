@@ -17,7 +17,7 @@ export default function Navbar({ setCity }) {
 
     return (
         <>
-            <input onChange={handleChange} type="text" />
+            <input onChange={handleChange} />
             <button onClick={runSearch}>Search</button>
         </>
     )
